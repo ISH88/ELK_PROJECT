@@ -2,7 +2,7 @@
 
  ## Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
-![TODO: Update the path with the name of your diagram](topology.png)
+![TODO Update the path with the name of your diagram](topology.png)
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
   see playbook.yml. for the DVWA and ELK playbook builds. 
 This document contains the following details:
@@ -15,10 +15,10 @@ This document contains the following details:
 ### Description of the Topology
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 Load balancing ensures that the application will be highly redundant, in addition to restricting  unauthorized accessing to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box? it alloes connectivity into the vitual network from external sources and obfuscates internal machines by allowing connectivity via private addresses_
+- What aspect of security do load balancers protect? What is the advantage of a jump box? it alloes connectivity into the vitual network from external sources and obfuscates internal machines by allowing connectivity via private addresses_
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __container___ and system _logs____.
-- _TODO: What does Filebeat watch for?_watch system logs
-- _TODO: What does Metricbeat record?_watches the ELK logs
+- What does Filebeat watch for?_watch system logs
+- What does Metricbeat record?_watches the ELK logs
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 | Name     | Function | IP Address | Operating System |
@@ -42,9 +42,9 @@ A summary of the access policies in place can be found in the table below.
 |          |                     |                      |
 ### Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_it reduces the human error especially at scale and makes the job esier and faster. 
+:What is the main advantage of automating configuration with Ansible?_it reduces the human error especially at scale and makes the job esier and faster. 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+- ... In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - ...ssh to jumpbox
 - ...install docker.io
 - ...pull Ansible container 
