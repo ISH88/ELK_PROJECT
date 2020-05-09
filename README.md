@@ -20,14 +20,15 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - What does Filebeat watch for?_watch system logs
 - What does Metricbeat record?_watches the ELK logs
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.1.5   | Linux            |
-| DVWA1-VM | 10.0.1.5 | 10.0.1.2   | Linux            |                  
-| DVWA2-VM | 10.0.1.5 | 10.0.1.3   | Linux            |                  
-| DVWA3-VM | 10.0.1.5 | 10.O.1.4   | Linux            |
-  ELK-VM   | 10.0.1.5 | 10.1.1.2   | LInux           
+
+| name    | function            | ip address | OS           |
+|---------|---------------------|------------|--------------|
+| elk     | log aggregator      | 10.1.1.2   | ubuntu 18.04 |
+| dvwa1   | virtual machine     | 10.0.1.2   | ubuntu 18.04 |
+| dvwa2   | virtual machine     | 10.0.1.3   | ubuntu 18.04 |
+| dvwa3   | virtual machine     | 10.0.1.4   | ubuntu 18.04 |
+| jumpbox | entry point gateway | 10.0.1.5   | ubuntu 18.04 |
+
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet. 
 Only the _jumpbox____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
