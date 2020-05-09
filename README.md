@@ -32,15 +32,16 @@ The configuration details of each machine may be found below.
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet. 
 Only the _jumpbox____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
-Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+
 A summary of the access policies in place can be found in the table below.
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|-------------------|----------------------|
-| Jump Box | Yes                 | 10.0.1.2 10.0.1.3    |
-|          |                     | 10.0.1.4             |
-|          |                     |                      |
+| name    | publicly accessible | allowed ip addresses  |
+|---------|---------------------|-----------------------|
+| elk     | yes via port 9200   | From DVWA machines    |
+| dvwa1   | no                  | n/a                   |
+| dvwa2   | no                  | n/a                   |
+| dvwa3   | no                  | n/a                   |
+| jumpbox | yes via ssh         | From home private IP  |
+
 ### Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 :What is the main advantage of automating configuration with Ansible?_it reduces the human error especially at scale and makes the job essier and faster. 
