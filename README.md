@@ -15,7 +15,7 @@ This document contains the following details:
 ### Description of the Topology
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 Load balancing ensures that the application will be highly redundant, in addition to restricting  unauthorized accessing to the network.
-- What aspect of security do load balancers protect? What is the advantage of a jump box? it alloes connectivity into the vitual network from external sources and obfuscates internal machines by allowing connectivity via private addresses_
+- What aspect of security do load balancers protect? What is the advantage of a jump box? it allows connectivity into the vitual network from external sources and obfuscates internal machines by allowing connectivity via private addresses_
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __container___ and system _logs____.
 - What does Filebeat watch for?_watch system logs
 - What does Metricbeat record?_watches the ELK logs
@@ -42,7 +42,7 @@ A summary of the access policies in place can be found in the table below.
 |          |                     |                      |
 ### Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-:What is the main advantage of automating configuration with Ansible?_it reduces the human error especially at scale and makes the job esier and faster. 
+:What is the main advantage of automating configuration with Ansible?_it reduces the human error especially at scale and makes the job essier and faster. 
 The playbook implements the following tasks:
 - ... In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - ...ssh to jumpbox
